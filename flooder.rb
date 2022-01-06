@@ -13,7 +13,7 @@ $data = {
 }
 
 def respone
-  HTTParty.post("http://localhost:8000/board", {
+  HTTParty.post("<link>", {
     :body => $data,
     :headers => $headers
   })
